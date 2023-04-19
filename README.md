@@ -1,6 +1,6 @@
 # MONGODB
 
-![alt](img/mongodb-2021.png)
+![alt](img/MongoDB-2021.png)
 
 ## What is MongoDB?
 ![alt](img/what-is-mongodb.png)

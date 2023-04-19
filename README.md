@@ -47,3 +47,12 @@
 ![alt](img/mongo-ports.png)
 
 ## How do you connect to a Mongo database?
+
+1. in the bash terminal get in to virtulisation folder the `vagrant ssh db` to access db on vagrant
+2. once in "vagrant@ubuntu-xenial:~$" type `sudo apt update -y` then `sudo apt upgrade -y` 
+3. then we need to add the key for mongodb that is available online and we enter like this `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
+4. then to check its worked we enter this `echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list`
+5. then again we do `sudo apt update -y` then `sudo apt upgrade -y` 
+6. and finally to install we `sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20`
+7. to start mongodb we use `sudo systemctl start mongod`
+8. and to check status we then run `sudo systemctl status  mongod`

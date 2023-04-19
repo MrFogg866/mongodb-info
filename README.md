@@ -38,6 +38,8 @@
 
 ## What is seeding in MongoDB? 
 
+- Database seeding is the initial seeding of a database with data. Seeding a database is a process in which an initial set of data is provided to a database when it is being installed.
+
 ## Why do Mongo databases need to be seeded?
 
 ## What port does MongoDB use?
